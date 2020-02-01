@@ -13,8 +13,8 @@
 		31184F3423B0D6550034AFDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31184F3223B0D6550034AFDC /* Main.storyboard */; };
 		31184F3623B0D6560034AFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31184F3523B0D6560034AFDC /* Assets.xcassets */; };
 		31184F3923B0D6560034AFDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31184F3723B0D6560034AFDC /* LaunchScreen.storyboard */; };
-		31184F4423B0D6570034AFDC /* TipAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31184F4323B0D6570034AFDC /* TipAppTests.swift */; };
-		31184F4F23B0D6570034AFDC /* TipAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31184F4E23B0D6570034AFDC /* TipAppUITests.swift */; };
+		31184F5D23B200E00034AFDC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31184F5C23B200E00034AFDC /* SettingViewController.swift */; };
+		31300A1923DDA01900E50034 /* SeparateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31300A1823DDA01900E50034 /* SeparateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +44,9 @@
 		31184F3823B0D6560034AFDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31184F3A23B0D6560034AFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31184F3F23B0D6570034AFDC /* TipAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		31184F4323B0D6570034AFDC /* TipAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipAppTests.swift; sourceTree = "<group>"; };
-		31184F4523B0D6570034AFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31184F4A23B0D6570034AFDC /* TipAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		31184F4E23B0D6570034AFDC /* TipAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipAppUITests.swift; sourceTree = "<group>"; };
-		31184F5023B0D6570034AFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31184F5C23B200E00034AFDC /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		31300A1823DDA01900E50034 /* SeparateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				31184F2B23B0D6550034AFDC /* TipApp */,
-				31184F4223B0D6570034AFDC /* TipAppTests */,
-				31184F4D23B0D6570034AFDC /* TipAppUITests */,
 				31184F2A23B0D6550034AFDC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,29 +99,13 @@
 				31184F2E23B0D6550034AFDC /* SceneDelegate.swift */,
 				31184F3023B0D6550034AFDC /* ViewController.swift */,
 				31184F3223B0D6550034AFDC /* Main.storyboard */,
+				31184F5C23B200E00034AFDC /* SettingViewController.swift */,
 				31184F3523B0D6560034AFDC /* Assets.xcassets */,
 				31184F3723B0D6560034AFDC /* LaunchScreen.storyboard */,
 				31184F3A23B0D6560034AFDC /* Info.plist */,
+				31300A1823DDA01900E50034 /* SeparateView.swift */,
 			);
 			path = TipApp;
-			sourceTree = "<group>";
-		};
-		31184F4223B0D6570034AFDC /* TipAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				31184F4323B0D6570034AFDC /* TipAppTests.swift */,
-				31184F4523B0D6570034AFDC /* Info.plist */,
-			);
-			path = TipAppTests;
-			sourceTree = "<group>";
-		};
-		31184F4D23B0D6570034AFDC /* TipAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				31184F4E23B0D6570034AFDC /* TipAppUITests.swift */,
-				31184F5023B0D6570034AFDC /* Info.plist */,
-			);
-			path = TipAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31300A1923DDA01900E50034 /* SeparateView.swift in Sources */,
 				31184F3123B0D6550034AFDC /* ViewController.swift in Sources */,
 				31184F2D23B0D6550034AFDC /* AppDelegate.swift in Sources */,
 				31184F2F23B0D6550034AFDC /* SceneDelegate.swift in Sources */,
+				31184F5D23B200E00034AFDC /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31184F4423B0D6570034AFDC /* TipAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31184F4F23B0D6570034AFDC /* TipAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "3I7-be-NCw"; */
+"3I7-be-NCw.text" = "$0.00";
+
+/* Class = "UILabel"; text = "IIII"; ObjectID = "EQ3-ma-uNE"; */
+"EQ3-ma-uNE.text" = "IIII";
+
+/* Class = "UILabel"; text = "Tip"; ObjectID = "Maf-JP-Lum"; */
+"Maf-JP-Lum.text" = "Tip";
+
+/* Class = "UILabel"; text = "Bill Amount"; ObjectID = "QJo-2Y-GHF"; */
+"QJo-2Y-GHF.text" = "Bill Amount";
+
+/* Class = "UILabel"; text = "III"; ObjectID = "Uio-N2-Pt8"; */
+"Uio-N2-Pt8.text" = "III";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "WMk-ku-tnN"; */
+"WMk-ku-tnN.text" = "$0.00";
+
+/* Class = "UILabel"; text = "II"; ObjectID = "Ydj-vg-4ST"; */
+"Ydj-vg-4ST.text" = "II";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "gVD-F8-IFT"; */
+"gVD-F8-IFT.text" = "Total";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "hIn-Na-Kmp"; */
+"hIn-Na-Kmp.text" = "$0.00";
+
+/* Class = "UILabel"; text = "II"; ObjectID = "mGx-ap-KbA"; */
+"mGx-ap-KbA.text" = "II";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "mOd-Md-LRT"; */
+"mOd-Md-LRT.text" = "$0.00";
+
+/* Class = "UISegmentedControl"; sbn-U0-moy.segmentTitles[0] = "15%"; ObjectID = "sbn-U0-moy"; */
+"sbn-U0-moy.segmentTitles[0]" = "15%";
+
+/* Class = "UISegmentedControl"; sbn-U0-moy.segmentTitles[1] = "18%"; ObjectID = "sbn-U0-moy"; */
+"sbn-U0-moy.segmentTitles[1]" = "18%";
+
+/* Class = "UISegmentedControl"; sbn-U0-moy.segmentTitles[2] = "20%"; ObjectID = "sbn-U0-moy"; */
+"sbn-U0-moy.segmentTitles[2]" = "20%";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "xhE-oY-1mw"; */
+"xhE-oY-1mw.text" = "$0.00";
